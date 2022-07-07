@@ -1,0 +1,142 @@
+*{
+    background-color: #272625;
+    font-family: david;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.head-line {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+#name {
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    color: rgb(207, 133, 49);
+    margin-top: 15px;
+}
+
+#date {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(207, 133, 49);
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.the-Q {
+    text-align: center;
+    color: rgb(235, 225, 225);
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons-nums {
+    text-align: center;
+    font-family: david;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+button {
+    height: 60px;
+    width: 150px;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    color:black;
+    background-color: rgb(170, 148, 148);
+}
+
+button:hover {
+    background-color: rgb(207, 133, 49);
+}
+
+button:active {
+    transform: translateY(5px);
+}
+
+.error-animal {
+    text-align: center;
+    margin: 300px;
+}
+
+.animals {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.photo:hover{
+    color: rgb(207, 133, 49);
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-color: black;
+    cursor: pointer;
+}
+
+img:hover{
+    border-color: rgb(207, 133, 49);
+}
+
+img:active {
+    transform: translateY(5px);
+}
+
+.animal-details {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: rgb(207, 133, 49);
+    font-weight: bold;
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    border: 3px solid rgb(207, 133, 49);
+    padding: 0 25px 15px 25px;
+}
